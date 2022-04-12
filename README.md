@@ -46,6 +46,8 @@ npm config set registry https://registry.npmmirror.com/
 
 最好不要直接提代码到master
 - 可以各自开一个dev分支（dev/xxx），然后提交代码到dev分支（并且注意及时将master中发生的合并回dev，以避免冲突），最后合并到master
-- 或者fork之后再提pr
+- 或者fork之后再提pr（如果触发pull request 会有自动构建检查）
 
 推荐软件 [fork](https://git-fork.com/)
+
+
