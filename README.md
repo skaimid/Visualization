@@ -39,12 +39,13 @@ npm config set registry https://registry.npmmirror.com/
 
 ## 使用的第三方库
 - [react](https://zh-hans.reactjs.org/)
-- [tailwindcss](https://tailwindcss.com/)
-- [react-router](https://reactrouter.com/)
+- [tailwindcss](https://tailwindcss.com/) inline css
+- [react-router](https://reactrouter.com/) 路由
+- [d3 d3-sankey](https://d3js.org/) 可视化库
 ## git 使用 & 分支
 
 最好不要直接提代码到master
-- 可以各自开一个dev分支（dev-xxx），然后提交代码到dev分支（并且注意及时将master中发生的合并回dev，以避免冲突），最后合并到master
+- 可以各自开一个dev分支（dev/xxx），然后提交代码到dev分支（并且注意及时将master中发生的合并回dev，以避免冲突），最后合并到master
 - 或者fork之后再提pr
 
 推荐软件 [fork](https://git-fork.com/)

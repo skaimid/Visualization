@@ -6,7 +6,7 @@ export default function HolyGrailLayout({ children }) {
     <div className="flex flex-col min-h-screen">
       <NavBar />
 
-      <div className="flex-1">{children}</div>
+      <div className="flex-1 bg-gray-300">{children}</div>
 
       <div className="text-center"></div>
     </div>
