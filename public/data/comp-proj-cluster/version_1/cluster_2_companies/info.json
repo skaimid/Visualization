@@ -1,0 +1,1 @@
+{"cluster_type": "one leader", "comp_num": 2, "proj_num": 3, "commit_in_cluster": 149, "role_dict": {"independent": {"role": "leader", "contribution": 92}, "canonical": {"role": "participant", "contribution": 57}}}

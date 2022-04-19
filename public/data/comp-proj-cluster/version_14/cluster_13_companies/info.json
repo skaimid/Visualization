@@ -1,0 +1,1 @@
+{"cluster_type": "one leader", "comp_num": 2, "proj_num": 1, "commit_in_cluster": 50, "role_dict": {"cc-in2p3": {"role": "leader", "contribution": 33}, "infn national institute for nuclear physics": {"role": "participant", "contribution": 17}}}

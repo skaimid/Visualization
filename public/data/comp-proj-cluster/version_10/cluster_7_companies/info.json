@@ -1,0 +1,1 @@
+{"cluster_type": "one leader", "comp_num": 4, "proj_num": 4, "commit_in_cluster": 578, "role_dict": {"yahoo!": {"role": "leader", "contribution": 321}, "dreamhost": {"role": "participant", "contribution": 251}, "soufflet.io": {"role": "participant", "contribution": 5}, "allegro": {"role": "participant", "contribution": 1}}}

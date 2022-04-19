@@ -1,0 +1,1 @@
+{"cluster_type": "one leader", "comp_num": 4, "proj_num": 7, "commit_in_cluster": 285, "role_dict": {"red hat": {"role": "leader", "contribution": 257}, "hp": {"role": "participant", "contribution": 26}, "inktank": {"role": "participant", "contribution": 1}, "usc-isi": {"role": "participant", "contribution": 1}}}

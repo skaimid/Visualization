@@ -1,0 +1,1 @@
+{"comp": "ibm", "role": "leader", "commit_in_cluster": 1805, "total_commit": 2825, "dc": 0.8571428571428571, "project": 68, "author": 199, "doc": 341, "test": 208, "bugfix": 1359, "feature": 722, "other": 195}

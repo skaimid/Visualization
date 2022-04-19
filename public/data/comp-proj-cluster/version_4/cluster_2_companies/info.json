@@ -1,0 +1,1 @@
+{"cluster_type": "one leader", "comp_num": 4, "proj_num": 3, "commit_in_cluster": 541, "role_dict": {"cisco systems": {"role": "leader", "contribution": 310}, "citrix": {"role": "participant", "contribution": 118}, "vmware": {"role": "participant", "contribution": 89}, "thoughtworks": {"role": "participant", "contribution": 24}}}

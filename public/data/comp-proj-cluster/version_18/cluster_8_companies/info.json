@@ -1,0 +1,1 @@
+{"cluster_type": "one leader", "comp_num": 5, "proj_num": 3, "commit_in_cluster": 515, "role_dict": {"canonical": {"role": "leader", "contribution": 452}, "objectif libre": {"role": "participant", "contribution": 60}, "arris": {"role": "participant", "contribution": 1}, "rtsoft": {"role": "participant", "contribution": 1}, "solinea": {"role": "participant", "contribution": 1}}}

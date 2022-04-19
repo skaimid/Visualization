@@ -1,0 +1,1 @@
+{"comp": "walmart", "role": "participant", "commit_in_cluster": 66, "total_commit": 99, "dc": 0.25125628140703515, "project": 4, "author": 4, "doc": 10, "test": 11, "bugfix": 46, "feature": 26, "other": 6}

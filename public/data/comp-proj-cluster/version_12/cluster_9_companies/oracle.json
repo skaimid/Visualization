@@ -1,0 +1,1 @@
+{"comp": "oracle", "role": "leader", "commit_in_cluster": 140, "total_commit": 157, "dc": 0.6122448979591837, "project": 11, "author": 12, "doc": 8, "test": 13, "bugfix": 66, "feature": 49, "other": 21}

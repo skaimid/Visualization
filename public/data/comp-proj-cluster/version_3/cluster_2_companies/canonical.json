@@ -1,0 +1,1 @@
+{"comp": "canonical", "role": "leader", "commit_in_cluster": 37, "total_commit": 109, "dc": 0.9473684210526315, "project": 3, "author": 3, "doc": 4, "test": 16, "bugfix": 44, "feature": 23, "other": 22}

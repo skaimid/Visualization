@@ -1,0 +1,1 @@
+{"comp": "hortonworks", "role": "participant", "commit_in_cluster": 20, "total_commit": 20, "dc": 0.0625, "project": 1, "author": 5, "doc": 3, "test": 2, "bugfix": 8, "feature": 7, "other": 0}

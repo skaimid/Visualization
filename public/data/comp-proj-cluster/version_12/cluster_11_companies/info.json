@@ -1,0 +1,1 @@
+{"cluster_type": "one leader", "comp_num": 2, "proj_num": 1, "commit_in_cluster": 36, "role_dict": {"spanish national research council": {"role": "leader", "contribution": 26}, "csic": {"role": "participant", "contribution": 10}}}

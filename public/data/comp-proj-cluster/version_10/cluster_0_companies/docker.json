@@ -1,0 +1,1 @@
+{"comp": "docker", "role": "participant", "commit_in_cluster": 11, "total_commit": 11, "dc": 0.07453416149068323, "project": 2, "author": 1, "doc": 1, "test": 0, "bugfix": 6, "feature": 3, "other": 1}

@@ -23,53 +23,61 @@ const Arc = ({ data, index, createArc, colors, format, length, datasum }) => (
 
 const Labels = ({ data, index, colors, length }) => {
   const num_of_label_in_row = 10;
-  return (<g key={index}>
-    <rect
-      width={15}
-      height={15}
-      x={((index - (index % num_of_label_in_row)) / num_of_label_in_row) * 150}
-      y={(index % num_of_label_in_row) * 20}
-      fill={colors((index * 2) / length)}
-    ></rect>
+  return (
+    <g key={index}>
+      <rect
+        width={15}
+        height={15}
+        x={
+          ((index - (index % num_of_label_in_row)) / num_of_label_in_row) * 150
+        }
+        y={(index % num_of_label_in_row) * 20}
+        fill={colors((index * 2) / length)}
+      ></rect>
 
-    <text
-      x={((index - (index % num_of_label_in_row)) / num_of_label_in_row) * 150 + 20}
-      y={(index % num_of_label_in_row) * 20 + 12}
-      fontSize="10"
-    >
-      {/* {data.data.comp.length > 10 ? data.data.comp.slice(0, 10) + "..." : data.data.comp} */}
-      {data.data.comp}
-    </text>
-  </g>)
+      <text
+        x={
+          ((index - (index % num_of_label_in_row)) / num_of_label_in_row) *
+            150 +
+          20
+        }
+        y={(index % num_of_label_in_row) * 20 + 12}
+        fontSize="10"
+      >
+        {/* {data.data.comp.length > 10 ? data.data.comp.slice(0, 10) + "..." : data.data.comp} */}
+        {data.data.comp}
+      </text>
+    </g>
+  );
 };
 
 const size = {
-  width: 640,
+  width: 400,
   height: 240,
   outerRadius: 100,
   innerRadius: 60,
 };
 
 const Piechart = (props) => {
-  let cData = [];
-  let datasum = 0;
-  console.log(props.data);
-  for (const item in props.data) {
-    datasum += props.data[item].contribution;
+  if (!props.data) {
+    return <div>no data</div>;
   }
-  // console.log(cData);
+  let cData = [];
+  let datasum = props.data.commit_in_cluster;
+
+  console.log(props.data);
 
   // 处理数据，小于minPencentage的不显示
-  const minPencentage = 0.05;
+  const minPencentage = 0.2;
   let data_left = datasum;
-  for (const item in props.data) {
-    data_left -= props.data[item].contribution;
-    cData.push({ comp: item, value: props.data[item].contribution });
-    if(data_left < minPencentage * datasum){
+  for (const item in props.data.role_dict) {
+    data_left -= props.data.role_dict[item].contribution;
+    cData.push({ comp: item, value: props.data.role_dict[item].contribution });
+    if (data_left < minPencentage * datasum) {
       break;
     }
   }
-  cData.push({ comp: "other", value: data_left });
+  if (data_left != 0) cData.push({ comp: "other", value: data_left });
 
   const createPie = d3.pie().value((d) => d.value);
   // .sort(null);
@@ -84,36 +92,44 @@ const Piechart = (props) => {
 
   return (
     <div className="flex flex-col">
-      <svg viewBox="0 0 640 240" width="100%" height="100%" preserveAspectRatio="xMinYMin meet">
-      <g transform={`translate(${size.outerRadius} ${size.outerRadius})`}>
-        {data.map((d, i) => (
-          <Arc
-            key={i}
-            data={d}
-            index={i}
-            createArc={createArc}
-            colors={colors}
-            format={format}
-            length={data.length}
-            datasum={datasum}
-          />
-        ))}
-      </g>
-      <g transform={`translate(${size.outerRadius * 2 + 40}  ${20})`}>
-        {data.map((d, i) => (
-          <Labels
-            key={i}
-            data={d}
-            index={i}
-            colors={colors}
-            length={data.length}
-          ></Labels>
-        ))}
-      </g>
-    </svg>
-    <div><span className="font-bold">选择的集群为：</span>集群_{props.index}</div>
+      <svg
+        viewBox="0 0 400 240"
+        width="100%"
+        height="100%"
+        preserveAspectRatio="xMinYMin meet"
+      >
+        <g
+          transform={`translate(${size.outerRadius + 20} ${size.outerRadius})`}
+        >
+          {data.map((d, i) => (
+            <Arc
+              key={i}
+              data={d}
+              index={i}
+              createArc={createArc}
+              colors={colors}
+              format={format}
+              length={data.length}
+              datasum={datasum}
+            />
+          ))}
+        </g>
+        <g transform={`translate(${size.outerRadius * 2 + 50}  ${20})`}>
+          {data.map((d, i) => (
+            <Labels
+              key={i}
+              data={d}
+              index={i}
+              colors={colors}
+              length={data.length}
+            ></Labels>
+          ))}
+        </g>
+      </svg>
+      <div>
+        <span className="font-bold">选择的集群为：</span>集群_{props.index}
+      </div>
     </div>
-    
   );
 };
 

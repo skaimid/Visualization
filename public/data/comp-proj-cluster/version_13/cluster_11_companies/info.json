@@ -1,0 +1,1 @@
+{"cluster_type": "one leader", "comp_num": 3, "proj_num": 1, "commit_in_cluster": 788, "role_dict": {"canonical": {"role": "leader", "contribution": 722}, "plumgrid": {"role": "participant", "contribution": 61}, "nuage networks": {"role": "participant", "contribution": 5}}}

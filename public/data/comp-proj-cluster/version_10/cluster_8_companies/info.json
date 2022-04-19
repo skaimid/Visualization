@@ -1,0 +1,1 @@
+{"cluster_type": "one leader", "comp_num": 4, "proj_num": 4, "commit_in_cluster": 279, "role_dict": {"intel": {"role": "leader", "contribution": 213}, "seagate": {"role": "participant", "contribution": 56}, "box": {"role": "participant", "contribution": 6}, "hcl": {"role": "participant", "contribution": 4}}}

@@ -1,0 +1,1 @@
+{"cluster_type": "multi leader", "comp_num": 4, "proj_num": 2, "commit_in_cluster": 76, "role_dict": {"cloudbau": {"role": "aggressive participant", "contribution": 36}, "x-ion": {"role": "aggressive participant", "contribution": 24}, "workday": {"role": "aggressive participant", "contribution": 12}, "blue box": {"role": "participant", "contribution": 4}}}

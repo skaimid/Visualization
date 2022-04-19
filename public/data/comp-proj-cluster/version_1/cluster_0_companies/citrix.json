@@ -1,0 +1,14 @@
+{
+  "comp": "citrix",
+  "role": "participant",
+  "commit_in_cluster": 90,
+  "total_commit": 91,
+  "dc": 0.7272727272727273,
+  "project": 4,
+  "author": 2,
+  "doc": 2,
+  "test": 3,
+  "bugfix": 45,
+  "feature": 28,
+  "other": 13
+}

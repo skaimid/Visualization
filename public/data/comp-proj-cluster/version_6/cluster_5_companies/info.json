@@ -1,0 +1,1 @@
+{"cluster_type": "one leader", "comp_num": 2, "proj_num": 3, "commit_in_cluster": 269, "role_dict": {"dreamhost": {"role": "leader", "contribution": 237}, "enovance": {"role": "participant", "contribution": 32}}}

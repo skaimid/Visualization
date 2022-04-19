@@ -1,0 +1,1 @@
+{"cluster_type": "one leader", "comp_num": 4, "proj_num": 6, "commit_in_cluster": 165, "role_dict": {"independent": {"role": "leader", "contribution": 144}, "hp": {"role": "participant", "contribution": 12}, "grid dynamics": {"role": "participant", "contribution": 5}, "information sciences institute": {"role": "participant", "contribution": 4}}}

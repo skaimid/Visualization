@@ -1,0 +1,1 @@
+{"comp": "debian", "role": "participant", "commit_in_cluster": 45, "total_commit": 51, "dc": 0.4411764705882353, "project": 7, "author": 1, "doc": 2, "test": 3, "bugfix": 21, "feature": 10, "other": 15}

@@ -1,0 +1,1 @@
+{"comp": "vmware", "role": "leader", "commit_in_cluster": 288, "total_commit": 332, "dc": 0.5058823529411764, "project": 14, "author": 24, "doc": 11, "test": 27, "bugfix": 139, "feature": 124, "other": 31}

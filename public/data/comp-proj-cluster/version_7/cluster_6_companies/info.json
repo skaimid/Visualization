@@ -1,0 +1,1 @@
+{"cluster_type": "one leader", "comp_num": 2, "proj_num": 1, "commit_in_cluster": 351, "role_dict": {"at&t": {"role": "leader", "contribution": 335}, "chef": {"role": "participant", "contribution": 16}}}

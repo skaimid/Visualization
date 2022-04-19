@@ -1,0 +1,1 @@
+{"cluster_type": "one leader", "comp_num": 2, "proj_num": 1, "commit_in_cluster": 37, "role_dict": {"hyperhq": {"role": "leader", "contribution": 21}, "zhejiang university": {"role": "participant", "contribution": 16}}}

@@ -1,0 +1,1 @@
+{"cluster_type": "one leader", "comp_num": 4, "proj_num": 3, "commit_in_cluster": 440, "role_dict": {"nokia": {"role": "leader", "contribution": 394}, "catalyst it": {"role": "participant", "contribution": 32}, "stackstorm": {"role": "participant", "contribution": 13}, "hedera technology": {"role": "participant", "contribution": 1}}}

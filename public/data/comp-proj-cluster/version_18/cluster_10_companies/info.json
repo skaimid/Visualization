@@ -1,0 +1,1 @@
+{"cluster_type": "one leader", "comp_num": 2, "proj_num": 2, "commit_in_cluster": 638, "role_dict": {"wind river system": {"role": "leader", "contribution": 464}, "intel": {"role": "participant", "contribution": 174}}}
