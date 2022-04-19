@@ -1,0 +1,1 @@
+{"cluster_type": "one leader", "comp_num": 3, "proj_num": 1, "commit_in_cluster": 202, "role_dict": {"tcp cloud": {"role": "leader", "contribution": 147}, "umcloud": {"role": "participant", "contribution": 52}, "lithium technologies": {"role": "participant", "contribution": 3}}}

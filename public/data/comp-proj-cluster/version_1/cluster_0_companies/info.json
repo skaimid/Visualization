@@ -1,0 +1,15 @@
+{
+  "cluster_type": "one leader",
+  "comp_num": 7,
+  "proj_num": 3,
+  "commit_in_cluster": 1804,
+  "role_dict": {
+    "nasa": { "role": "leader", "contribution": 1187 },
+    "cisco systems": { "role": "participant", "contribution": 249 },
+    "nebula": { "role": "participant", "contribution": 131 },
+    "piston cloud": { "role": "participant", "contribution": 93 },
+    "citrix": { "role": "participant", "contribution": 90 },
+    "fathomdb": { "role": "participant", "contribution": 52 },
+    "intel": { "role": "participant", "contribution": 2 }
+  }
+}

@@ -1,0 +1,1 @@
+{"cluster_type": "one leader", "comp_num": 2, "proj_num": 2, "commit_in_cluster": 37, "role_dict": {"infracloud": {"role": "leader", "contribution": 32}, "platform9 systems": {"role": "participant", "contribution": 5}}}

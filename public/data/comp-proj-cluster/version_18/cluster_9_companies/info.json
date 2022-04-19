@@ -1,0 +1,1 @@
+{"cluster_type": "one leader", "comp_num": 3, "proj_num": 2, "commit_in_cluster": 177, "role_dict": {"swiftstack": {"role": "leader", "contribution": 170}, "ovh": {"role": "participant", "contribution": 5}, "sohonet": {"role": "participant", "contribution": 2}}}

@@ -1,0 +1,11 @@
+{
+  "cluster_type": "one leader",
+  "comp_num": 3,
+  "proj_num": 3,
+  "commit_in_cluster": 276,
+  "role_dict": {
+    "rackspace": { "role": "leader", "contribution": 218 },
+    "hp": { "role": "participant", "contribution": 57 },
+    "cloudscaling": { "role": "participant", "contribution": 1 }
+  }
+}

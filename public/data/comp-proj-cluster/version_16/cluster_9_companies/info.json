@@ -1,0 +1,1 @@
+{"cluster_type": "one leader", "comp_num": 4, "proj_num": 3, "commit_in_cluster": 641, "role_dict": {"canonical": {"role": "leader", "contribution": 611}, "objectif libre": {"role": "participant", "contribution": 28}, "microsoft": {"role": "participant", "contribution": 1}, "transcirrus": {"role": "participant", "contribution": 1}}}

@@ -1,0 +1,1 @@
+{"cluster_type": "one leader", "comp_num": 2, "proj_num": 1, "commit_in_cluster": 98, "role_dict": {"akanda": {"role": "leader", "contribution": 90}, "dreamhost": {"role": "participant", "contribution": 8}}}

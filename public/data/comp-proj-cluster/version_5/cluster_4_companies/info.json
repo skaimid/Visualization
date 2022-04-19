@@ -1,0 +1,1 @@
+{"cluster_type": "one leader", "comp_num": 3, "proj_num": 1, "commit_in_cluster": 950, "role_dict": {"yahoo!": {"role": "leader", "contribution": 902}, "dreamhost": {"role": "participant", "contribution": 45}, "la honda research": {"role": "participant", "contribution": 3}}}

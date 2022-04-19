@@ -1,0 +1,1 @@
+{"cluster_type": "one leader", "comp_num": 4, "proj_num": 4, "commit_in_cluster": 313, "role_dict": {"rackspace": {"role": "leader", "contribution": 291}, "hp": {"role": "participant", "contribution": 11}, "iomart": {"role": "participant", "contribution": 6}, "cloudscaling": {"role": "participant", "contribution": 5}}}

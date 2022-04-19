@@ -1,0 +1,1 @@
+{"cluster_type": "one leader", "comp_num": 4, "proj_num": 8, "commit_in_cluster": 5569, "role_dict": {"mirantis": {"role": "leader", "contribution": 5539}, "hortonworks": {"role": "participant", "contribution": 17}, "ukrnet": {"role": "participant", "contribution": 10}, "mail.ru": {"role": "participant", "contribution": 3}}}

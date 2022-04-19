@@ -1,0 +1,1 @@
+{"cluster_type": "one leader", "comp_num": 3, "proj_num": 1, "commit_in_cluster": 1732, "role_dict": {"canonical": {"role": "leader", "contribution": 1702}, "nuage networks": {"role": "participant", "contribution": 28}, "arris": {"role": "participant", "contribution": 2}}}

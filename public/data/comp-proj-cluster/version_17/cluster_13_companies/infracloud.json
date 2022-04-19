@@ -1,0 +1,1 @@
+{"comp": "infracloud", "role": "leader", "commit_in_cluster": 15, "total_commit": 15, "dc": 0.01, "project": 1, "author": 2, "doc": 0, "test": 4, "bugfix": 7, "feature": 3, "other": 1}

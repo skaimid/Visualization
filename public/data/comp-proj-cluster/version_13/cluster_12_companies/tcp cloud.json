@@ -1,0 +1,1 @@
+{"comp": "tcp cloud", "role": "leader", "commit_in_cluster": 147, "total_commit": 149, "dc": 0.2019704433497537, "project": 2, "author": 8, "doc": 13, "test": 2, "bugfix": 47, "feature": 39, "other": 48}

@@ -1,0 +1,1 @@
+{"cluster_type": "one leader", "comp_num": 3, "proj_num": 4, "commit_in_cluster": 520, "role_dict": {"vmware": {"role": "leader", "contribution": 483}, "sina": {"role": "participant", "contribution": 35}, "styra": {"role": "participant", "contribution": 2}}}

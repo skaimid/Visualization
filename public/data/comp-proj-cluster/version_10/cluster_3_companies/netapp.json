@@ -1,0 +1,1 @@
+{"comp": "netapp", "role": "participant", "commit_in_cluster": 40, "total_commit": 60, "dc": 0.45962732919254656, "project": 4, "author": 7, "doc": 4, "test": 3, "bugfix": 23, "feature": 12, "other": 18}

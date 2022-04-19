@@ -1,10 +1,14 @@
 import React from "react";
 
 export default function ClusterShower({ clusterData }) {
+  if (!clusterData) {
+    return <div>no data</div>;
+  }
+
   console.log(clusterData);
 
-  const type = clusterData[0];
-  const data = clusterData[1];
+  const type = clusterData.cluster_type;
+  const data = clusterData.role_dict;
 
   let totalContribution = 0;
   for (let key in data) {
@@ -14,7 +18,7 @@ export default function ClusterShower({ clusterData }) {
   switch (type) {
     case "multi leader":
       return (
-        <div>
+        <div className="text-lg">
           <div>
             合作模式：
             <span className="underline decoration-sky-500 decoration-2 underline-offset-2">
@@ -82,7 +86,7 @@ export default function ClusterShower({ clusterData }) {
           集团领导者是：
           {Object.keys(data).map((k, i) => {
             return (
-               data[k].role === "leader" && (
+              data[k].role === "leader" && (
                 <span
                   className="underline decoration-sky-500 decoration-2 underline-offset-2 pl-4"
                   key={i}

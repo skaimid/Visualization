@@ -1,0 +1,1 @@
+{"comp": "rackspace", "role": "leader", "commit_in_cluster": 1005, "total_commit": 1434, "dc": 0.7135678391959799, "project": 58, "author": 73, "doc": 315, "test": 89, "bugfix": 583, "feature": 357, "other": 90}

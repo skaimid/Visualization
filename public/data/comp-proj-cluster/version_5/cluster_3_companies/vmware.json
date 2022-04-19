@@ -1,0 +1,1 @@
+{"comp": "vmware", "role": "aggressive participant", "commit_in_cluster": 108, "total_commit": 224, "dc": 0.7924528301886793, "project": 7, "author": 4, "doc": 22, "test": 6, "bugfix": 144, "feature": 27, "other": 25}

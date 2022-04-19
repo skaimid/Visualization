@@ -1,0 +1,1 @@
+{"cluster_type": "one leader", "comp_num": 3, "proj_num": 1, "commit_in_cluster": 102, "role_dict": {"workday": {"role": "leader", "contribution": 92}, "cloudbau": {"role": "participant", "contribution": 5}, "x-ion": {"role": "participant", "contribution": 5}}}

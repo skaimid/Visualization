@@ -1,0 +1,1 @@
+{"cluster_type": "one leader", "comp_num": 4, "proj_num": 2, "commit_in_cluster": 186, "role_dict": {"oracle": {"role": "leader", "contribution": 140}, "pnnl": {"role": "participant", "contribution": 43}, "aerofs": {"role": "participant", "contribution": 2}, "apcera": {"role": "participant", "contribution": 1}}}

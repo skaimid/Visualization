@@ -1,0 +1,14 @@
+{
+  "comp": "cisco systems",
+  "role": "participant",
+  "commit_in_cluster": 249,
+  "total_commit": 249,
+  "dc": 0.7272727272727273,
+  "project": 3,
+  "author": 1,
+  "doc": 10,
+  "test": 28,
+  "bugfix": 30,
+  "feature": 84,
+  "other": 97
+}

@@ -1,0 +1,1 @@
+{"cluster_type": "multi leader", "comp_num": 4, "proj_num": 2, "commit_in_cluster": 76, "role_dict": {"cloudbau": {"role": "aggressive participant", "contribution": 35}, "workday": {"role": "aggressive participant", "contribution": 27}, "x-ion": {"role": "aggressive participant", "contribution": 13}, "oregon state university": {"role": "participant", "contribution": 1}}}
