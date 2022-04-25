@@ -136,7 +136,7 @@ export default function CompCop() {
 
   return (
     <HolyGrailLayout>
-      <div className="flex flex-row flex-nowrap justify-between m-8 min-w-[1920px]">
+      <div className="flex flex-row flex-nowrap justify-between m-8 min-w-[1920px] items-stretch">
         <div className="flex flex-col m-4 w-2/12">
           <GraphContainer title={"版本选择"}>
             <Selector
