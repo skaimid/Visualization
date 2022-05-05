@@ -64,7 +64,7 @@ const Rect = ({
           userSelect: "none",
         }}
       >
-        {name}
+        {name.replaceAll("_companies", "").replaceAll("_project", "")}
       </text>
     </>
   );
@@ -109,7 +109,7 @@ const Sankey = ({ data, version, setSelectedCluster, selectedCluster }) => {
     .nodePadding(10)
     .extent([
       [0, 0],
-      [size.width, size.height - 10],
+      [size.width, size.height - 30],
     ])
     .nodeSort(null);
 
@@ -167,6 +167,14 @@ const Sankey = ({ data, version, setSelectedCluster, selectedCluster }) => {
         className="w-full h-full"
       >
         <g>
+          <text x={6} y={12} style={{ fontSize: 12, textAnchor: "start" }}>
+            companies
+          </text>
+          <text x={512 - 6} y={12} style={{ fontSize: 12, textAnchor: "end" }}>
+            project
+          </text>
+        </g>
+        <g transform={`translate(0, 20)`}>
           {links.map((d, i) => (
             <Link
               key={i}
@@ -178,7 +186,7 @@ const Sankey = ({ data, version, setSelectedCluster, selectedCluster }) => {
             />
           ))}
         </g>
-        <g>
+        <g transform={`translate(0, 20)`}>
           {nodes.map((d, i) => (
             <Rect
               key={i}
