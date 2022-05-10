@@ -17,19 +17,19 @@ export default function NavBar() {
         <div className="ml-2 text-lg">开源社区可视化分析 </div>
       </div>
       <nav className="divide-x text-lg">
-        <Link to={"/"} className="px-4">
+        <Link to={"/"} className="px-4 text-gray-900 hover:text-gray-500">
           主页
         </Link>
-        <Link to="/comp-coop" className="px-4">
+        <Link to="/comp-coop" className="px-4 text-gray-900 hover:text-gray-500">
           公司合作
         </Link>
-        <Link to="/dev-participate" className="px-4">
+        <Link to="/dev-participate" className="px-4 text-gray-900 hover:text-gray-500">
           公司参与
         </Link>
-        <Link to="/comp-leave" className="px-4">
+        <Link to="/comp-leave" className="px-4 text-gray-900 hover:text-gray-500">
           公司流失
         </Link>
-        <Link to="/dev-leave" className="px-4">
+        <Link to="/dev-leave" className="px-4 text-gray-900 hover:text-gray-500">
           开发者流失
         </Link>
       </nav>
