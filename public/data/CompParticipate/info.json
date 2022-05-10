@@ -1,0 +1,12 @@
+[
+    {
+        "comp_name" : "independent",
+        "dev_num": 2412,
+        "ci":0.182158
+    },
+    {
+        "comp_name" : "independenttest2",
+        "dev_num": 42,
+        "ci":0.34538
+    }
+]
