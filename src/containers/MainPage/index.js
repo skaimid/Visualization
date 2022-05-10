@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import HolyGrailLayout from "../../components/HolyGrailLayout";
 import data from "./data.js";
+import { Button } from 'antd';
+
 
 export default function MainPage() {
   return (
@@ -41,7 +43,7 @@ export default function MainPage() {
                 <div className="flex flex-col  w-[30rem] h-72  mx-4 mt-8 ">
                   <Link
                     to={item.linkto}
-                    className="text-4xl font-extrabold mb-4"
+                    className="text-4xl font-extrabold mb-4 text-gray-900 hover:text-gray-500"
                   >
                     {item.name}
                   </Link>
@@ -53,7 +55,7 @@ export default function MainPage() {
                 <div className="flex flex-col  w-[30rem] h-72  mx-4 mt-8">
                   <Link
                     to={item.linkto}
-                    className="text-4xl font-extrabold text-right	mb-4"
+                    className="text-4xl font-extrabold text-right	mb-4 text-gray-900 hover:text-gray-500"
                   >
                     {item.name}
                   </Link>
