@@ -12,8 +12,8 @@ import { CanvasRenderer } from "echarts/renderers";
 
 const getOption = () => ({
   title: {
-    text: "Referer of a Website",
-    subtext: "Fake Data",
+    text: "",
+    subtext: "",
     left: "center",
   },
   tooltip: {
@@ -21,7 +21,7 @@ const getOption = () => ({
   },
   legend: {
     orient: "vertical",
-    left: "left",
+    left: "right",
   },
   series: [
     {
@@ -29,11 +29,10 @@ const getOption = () => ({
       type: "pie",
       radius: "50%",
       data: [
-        { value: 1048, name: "Search Engine" },
-        { value: 735, name: "Direct" },
-        { value: 580, name: "Email" },
-        { value: 484, name: "Union Ads" },
-        { value: 300, name: "Video Ads" },
+        { value: 374, name: "cloud service" },
+        { value: 16, name: "distros" },
+        { value: 3, name: "training" },
+        { value: 17, name: "consulting" },
       ],
       emphasis: {
         itemStyle: {
