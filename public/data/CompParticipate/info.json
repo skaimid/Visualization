@@ -1,12 +1,3282 @@
 [
     {
-        "comp_name" : "independent",
-        "dev_num": 2412,
-        "ci":0.182158
+        "ce": "0.755475",
+        "ci": "0.182158",
+        "company": "independent",
+        "cp": "component",
+        "devpr_num": "2412",
+        "goal": "consulting"
     },
     {
-        "comp_name" : "independenttest2",
-        "dev_num": 42,
-        "ci":0.34538
+        "ce": "0.647",
+        "ci": "0.221675",
+        "company": "mirantis",
+        "cp": "deployment",
+        "devpr_num": "725",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.636175",
+        "ci": "0.0861942",
+        "company": "ibm",
+        "cp": "component",
+        "devpr_num": "562",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.7197",
+        "ci": "0.147353",
+        "company": "red hat",
+        "cp": "component",
+        "devpr_num": "546",
+        "goal": "training"
+    },
+    {
+        "ce": "0.66225",
+        "ci": "0.191848",
+        "company": "rackspace",
+        "cp": "component",
+        "devpr_num": "472",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.547325",
+        "ci": "0.0506904",
+        "company": "hp",
+        "cp": "component",
+        "devpr_num": "391",
+        "goal": "consulting"
+    },
+    {
+        "ce": "0.5704",
+        "ci": "0.0455927",
+        "company": "intel",
+        "cp": "component",
+        "devpr_num": "311",
+        "goal": "consulting"
+    },
+    {
+        "ce": "0.476225",
+        "ci": "0.056193",
+        "company": "cisco systems",
+        "cp": "component",
+        "devpr_num": "236",
+        "goal": "consulting"
+    },
+    {
+        "ce": "0.608825",
+        "ci": "0.044281",
+        "company": "hpe",
+        "cp": "component",
+        "devpr_num": "230",
+        "goal": "consulting"
+    },
+    {
+        "ce": "0.4797",
+        "ci": "0.0321199",
+        "company": "huawei",
+        "cp": "component",
+        "devpr_num": "185",
+        "goal": "distros"
+    },
+    {
+        "ce": "0.371525",
+        "ci": "0.0183448",
+        "company": "at&t",
+        "cp": "component",
+        "devpr_num": "160",
+        "goal": "consulting"
+    },
+    {
+        "ce": "0.38525",
+        "ci": "0.04837",
+        "company": "canonical",
+        "cp": "deployment",
+        "devpr_num": "144",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.5578",
+        "ci": "0.039604",
+        "company": "fujitsu",
+        "cp": "component",
+        "devpr_num": "137",
+        "goal": "distros"
+    },
+    {
+        "ce": "0.38025",
+        "ci": "0.0283976",
+        "company": "ntt",
+        "cp": "component",
+        "devpr_num": "137",
+        "goal": "consulting"
+    },
+    {
+        "ce": "0.485675",
+        "ci": "0.0316656",
+        "company": "nec",
+        "cp": "component",
+        "devpr_num": "128",
+        "goal": "consulting"
+    },
+    {
+        "ce": "0.362925",
+        "ci": "0.0303106",
+        "company": "zte corporation",
+        "cp": "component",
+        "devpr_num": "116",
+        "goal": "distros"
+    },
+    {
+        "ce": "0.4213",
+        "ci": "0.0191156",
+        "company": "99cloud",
+        "cp": "component",
+        "devpr_num": "99",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.47665",
+        "ci": "0.1",
+        "company": "vmware",
+        "cp": "component",
+        "devpr_num": "93",
+        "goal": "training"
+    },
+    {
+        "ce": "0.34905",
+        "ci": "0.0169875",
+        "company": "nokia",
+        "cp": "component",
+        "devpr_num": "92",
+        "goal": "consulting"
+    },
+    {
+        "ce": "0.2844",
+        "ci": "0.0112087",
+        "company": "easystack",
+        "cp": "component",
+        "devpr_num": "82",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.3535",
+        "ci": "0.0151515",
+        "company": "dell",
+        "cp": "component",
+        "devpr_num": "74",
+        "goal": "distros"
+    },
+    {
+        "ce": "0.2624",
+        "ci": "0.010101",
+        "company": "fiberhome",
+        "cp": "component",
+        "devpr_num": "74",
+        "goal": "distros"
+    },
+    {
+        "ce": "0.0858",
+        "ci": "0.00167237",
+        "company": "wind river system",
+        "cp": "deployment",
+        "devpr_num": "64",
+        "goal": "consulting"
+    },
+    {
+        "ce": "0.468275",
+        "ci": "0.0162832",
+        "company": "inspur",
+        "cp": "component",
+        "devpr_num": "63",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.5952",
+        "ci": "0.0325397",
+        "company": "suse",
+        "cp": "component",
+        "devpr_num": "58",
+        "goal": "distros"
+    },
+    {
+        "ce": "0.261475",
+        "ci": "0.0072862",
+        "company": "unitedstack",
+        "cp": "component",
+        "devpr_num": "53",
+        "goal": "consulting"
+    },
+    {
+        "ce": "0.3515",
+        "ci": "0.00858369",
+        "company": "ericsson",
+        "cp": "component",
+        "devpr_num": "52",
+        "goal": "distros"
+    },
+    {
+        "ce": "0.4325",
+        "ci": "0.031746",
+        "company": "cloudbase solutions",
+        "cp": "component",
+        "devpr_num": "50",
+        "goal": "distros"
+    },
+    {
+        "ce": "0.361475",
+        "ci": "0.0196759",
+        "company": "yahoo!",
+        "cp": "component",
+        "devpr_num": "42",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.17675",
+        "ci": "0.00641026",
+        "company": "awcloud",
+        "cp": "component",
+        "devpr_num": "36",
+        "goal": "training"
+    },
+    {
+        "ce": "0.263425",
+        "ci": "0.00997343",
+        "company": "comcast",
+        "cp": "community",
+        "devpr_num": "36",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.255975",
+        "ci": "0.00639882",
+        "company": "oracle",
+        "cp": "component",
+        "devpr_num": "36",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.256775",
+        "ci": "0.00507941",
+        "company": "universidade federal de campina grande",
+        "cp": "component",
+        "devpr_num": "36",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.17425",
+        "ci": "0.00412371",
+        "company": "ebay",
+        "cp": "component",
+        "devpr_num": "31",
+        "goal": "distros"
+    },
+    {
+        "ce": "0.2543",
+        "ci": "0.00943396",
+        "company": "tata communications",
+        "cp": "component",
+        "devpr_num": "31",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.2616",
+        "ci": "0.00569277",
+        "company": "cern",
+        "cp": "component",
+        "devpr_num": "30",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.171375",
+        "ci": "0.0036674",
+        "company": "orange",
+        "cp": "component",
+        "devpr_num": "30",
+        "goal": "distros"
+    },
+    {
+        "ce": "0.173175",
+        "ci": "0.0035297",
+        "company": "inwinstack",
+        "cp": "community",
+        "devpr_num": "29",
+        "goal": "distros"
+    },
+    {
+        "ce": "0.34045",
+        "ci": "0.00757576",
+        "company": "netapp",
+        "cp": "component",
+        "devpr_num": "29",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.2584",
+        "ci": "0.00788215",
+        "company": "thoughtworks",
+        "cp": "component",
+        "devpr_num": "29",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.17365",
+        "ci": "0.00412088",
+        "company": "cloudwatt",
+        "cp": "component",
+        "devpr_num": "28",
+        "goal": "distros"
+    },
+    {
+        "ce": "0.17145",
+        "ci": "0.00558214",
+        "company": "cmss",
+        "cp": "component",
+        "devpr_num": "28",
+        "goal": "distros"
+    },
+    {
+        "ce": "0.48485",
+        "ci": "0.0153846",
+        "company": "enovance",
+        "cp": "component",
+        "devpr_num": "28",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1818",
+        "ci": "0.008",
+        "company": "grid dynamics",
+        "cp": "component",
+        "devpr_num": "28",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.2575",
+        "ci": "0.00786545",
+        "company": "plumgrid",
+        "cp": "deployment",
+        "devpr_num": "28",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1746",
+        "ci": "0.00634921",
+        "company": "internap",
+        "cp": "component",
+        "devpr_num": "26",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.235325",
+        "ci": "0.00888364",
+        "company": "midokura",
+        "cp": "component",
+        "devpr_num": "26",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.25875",
+        "ci": "0.00374532",
+        "company": "symantec",
+        "cp": "component",
+        "devpr_num": "26",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.4",
+        "ci": "0.0369231",
+        "company": "nebula",
+        "cp": "component",
+        "devpr_num": "25",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.169875",
+        "ci": "0.00346527",
+        "company": "samsung",
+        "cp": "component",
+        "devpr_num": "25",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.2597",
+        "ci": "0.016001",
+        "company": "citrix",
+        "cp": "component",
+        "devpr_num": "24",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.171875",
+        "ci": "0.00385673",
+        "company": "china mobile",
+        "cp": "component",
+        "devpr_num": "23",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.2572",
+        "ci": "0.00478469",
+        "company": "hitach",
+        "cp": "component",
+        "devpr_num": "22",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.25875",
+        "ci": "0.00576923",
+        "company": "mellanox",
+        "cp": "component",
+        "devpr_num": "22",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.25305",
+        "ci": "0.00286123",
+        "company": "ovh",
+        "cp": "component",
+        "devpr_num": "21",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.399125",
+        "ci": "0.0184343",
+        "company": "dreamhost",
+        "cp": "deployment",
+        "devpr_num": "21",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.2631",
+        "ci": "0.00599637",
+        "company": "emc",
+        "cp": "component",
+        "devpr_num": "21",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.299725",
+        "ci": "0.00769231",
+        "company": "switch",
+        "cp": "component",
+        "devpr_num": "19",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.257",
+        "ci": "0.00847458",
+        "company": "tesora",
+        "cp": "component",
+        "devpr_num": "19",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.214975",
+        "ci": "0.00573233",
+        "company": "brocade",
+        "cp": "component",
+        "devpr_num": "18",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.084525",
+        "ci": "0.00236555",
+        "company": "google",
+        "cp": "component",
+        "devpr_num": "17",
+        "goal": "consulting"
+    },
+    {
+        "ce": "0.42085",
+        "ci": "0.020202",
+        "company": "openstack foundation",
+        "cp": "community",
+        "devpr_num": "17",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.25575",
+        "ci": "0.010001",
+        "company": "swiftstack",
+        "cp": "component",
+        "devpr_num": "17",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.169675",
+        "ci": "0.0039589",
+        "company": "zhaw icclab",
+        "cp": "client",
+        "devpr_num": "17",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.084375",
+        "ci": "0.00361864",
+        "company": "lenovo",
+        "cp": "client",
+        "devpr_num": "16",
+        "goal": "consulting"
+    },
+    {
+        "ce": "0.128225",
+        "ci": "0.00252527",
+        "company": "persistent systems",
+        "cp": "component",
+        "devpr_num": "16",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.173925",
+        "ci": "0.00334332",
+        "company": "reliance",
+        "cp": "component",
+        "devpr_num": "16",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.29165",
+        "ci": "0.0128205",
+        "company": "cloudscaling",
+        "cp": "component",
+        "devpr_num": "15",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.12665",
+        "ci": "0.00471657",
+        "company": "one convergence",
+        "cp": "client",
+        "devpr_num": "15",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.343675",
+        "ci": "0.00759147",
+        "company": "objectif libre",
+        "cp": "component",
+        "devpr_num": "14",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1741",
+        "ci": "0.0123023",
+        "company": "tcp cloud",
+        "cp": "deployment",
+        "devpr_num": "14",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1694",
+        "ci": "0.00772201",
+        "company": "h3c",
+        "cp": "community",
+        "devpr_num": "13",
+        "goal": "distros"
+    },
+    {
+        "ce": "0.3008",
+        "ci": "0.00690367",
+        "company": "godaddy",
+        "cp": "component",
+        "devpr_num": "13",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.179925",
+        "ci": "0.00321467",
+        "company": "lsd ufcg",
+        "cp": "component",
+        "devpr_num": "13",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0861",
+        "ci": "0.00320256",
+        "company": "sina",
+        "cp": "component",
+        "devpr_num": "13",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.25655",
+        "ci": "0.00414992",
+        "company": "deutsche telekom",
+        "cp": "component",
+        "devpr_num": "12",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.25965",
+        "ci": "0.00793651",
+        "company": "gohighsec",
+        "cp": "component",
+        "devpr_num": "12",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.2577",
+        "ci": "0.00464876",
+        "company": "jhu/apl",
+        "cp": "component",
+        "devpr_num": "12",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1701",
+        "ci": "0.00276861",
+        "company": "sap",
+        "cp": "component",
+        "devpr_num": "12",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.25455",
+        "ci": "0.0031746",
+        "company": "aptira",
+        "cp": "component",
+        "devpr_num": "11",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.25975",
+        "ci": "0.00642398",
+        "company": "catalyst it",
+        "cp": "component",
+        "devpr_num": "11",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.2104",
+        "ci": "0.00327565",
+        "company": "juniper",
+        "cp": "component",
+        "devpr_num": "11",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.17055",
+        "ci": "0.00478469",
+        "company": "inesa",
+        "cp": "component",
+        "devpr_num": "10",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.170525",
+        "ci": "0.00482266",
+        "company": "osones",
+        "cp": "community",
+        "devpr_num": "10",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1035",
+        "ci": "0.00913242",
+        "company": "puppet labs",
+        "cp": "deployment",
+        "devpr_num": "10",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.2531",
+        "ci": "0.0033557",
+        "company": "seznam.cz",
+        "cp": "component",
+        "devpr_num": "10",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1832",
+        "ci": "0.00330705",
+        "company": "walmart",
+        "cp": "component",
+        "devpr_num": "10",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0847",
+        "ci": "0.00256575",
+        "company": "arista networks",
+        "cp": "component",
+        "devpr_num": "9",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.3526",
+        "ci": "0.00956938",
+        "company": "b1 systems gmbh",
+        "cp": "community",
+        "devpr_num": "9",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.16855",
+        "ci": "0.00250025",
+        "company": "fit",
+        "cp": "community",
+        "devpr_num": "9",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08815",
+        "ci": "0.00168776",
+        "company": "globallogic",
+        "cp": "component",
+        "devpr_num": "9",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.17265",
+        "ci": "0.00196832",
+        "company": "kylin cloud",
+        "cp": "component",
+        "devpr_num": "9",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.2908",
+        "ci": "0.0113636",
+        "company": "piston cloud",
+        "cp": "component",
+        "devpr_num": "9",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.21505",
+        "ci": "0.00472488",
+        "company": "stackops",
+        "cp": "community",
+        "devpr_num": "9",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1769",
+        "ci": "0.0152505",
+        "company": "strato ag",
+        "cp": "deployment",
+        "devpr_num": "9",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.260375",
+        "ci": "0.00946852",
+        "company": "thales",
+        "cp": "component",
+        "devpr_num": "9",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.2562",
+        "ci": "0.00412924",
+        "company": "university of melbourne",
+        "cp": "client",
+        "devpr_num": "9",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.2594",
+        "ci": "0.00343532",
+        "company": "workday",
+        "cp": "deployment",
+        "devpr_num": "9",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.16975",
+        "ci": "0.00423444",
+        "company": "blizzard entertainment",
+        "cp": "component",
+        "devpr_num": "8",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.16805",
+        "ci": "0.00214133",
+        "company": "chinac",
+        "cp": "component",
+        "devpr_num": "8",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08525",
+        "ci": "0.0015949",
+        "company": "cloudin",
+        "cp": "component",
+        "devpr_num": "8",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.25435",
+        "ci": "0.00234742",
+        "company": "cray",
+        "cp": "component",
+        "devpr_num": "8",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.25255",
+        "ci": "0.00246305",
+        "company": "linaro",
+        "cp": "component",
+        "devpr_num": "8",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.086125",
+        "ci": "0.000714602",
+        "company": "mapr",
+        "cp": "component",
+        "devpr_num": "8",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.133475",
+        "ci": "0.00476286",
+        "company": "netease",
+        "cp": "component",
+        "devpr_num": "8",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.343925",
+        "ci": "0.00971541",
+        "company": "t2cloud",
+        "cp": "component",
+        "devpr_num": "8",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.17625",
+        "ci": "0.00429185",
+        "company": "time warner cable",
+        "cp": "deployment",
+        "devpr_num": "8",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.168275",
+        "ci": "0.0022555",
+        "company": "ultimum technologies",
+        "cp": "component",
+        "devpr_num": "7",
+        "goal": "distros"
+    },
+    {
+        "ce": "0.167975",
+        "ci": "0.00222417",
+        "company": "stackhpc",
+        "cp": "component",
+        "devpr_num": "7",
+        "goal": "consulting"
+    },
+    {
+        "ce": "0.16975",
+        "ci": "0.00473934",
+        "company": "b<>com",
+        "cp": "component",
+        "devpr_num": "7",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.17105",
+        "ci": "0.00793651",
+        "company": "blue box",
+        "cp": "component",
+        "devpr_num": "7",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.26235",
+        "ci": "0.00414938",
+        "company": "charter",
+        "cp": "deployment",
+        "devpr_num": "7",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0861",
+        "ci": "0.00232019",
+        "company": "dt dream",
+        "cp": "component",
+        "devpr_num": "7",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1697",
+        "ci": "0.00236967",
+        "company": "hcl",
+        "cp": "component",
+        "devpr_num": "7",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08815",
+        "ci": "0.00377834",
+        "company": "hortonworks",
+        "cp": "component",
+        "devpr_num": "7",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.211275",
+        "ci": "0.0021016",
+        "company": "imaginea technologies",
+        "cp": "component",
+        "devpr_num": "7",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.127725",
+        "ci": "0.00205867",
+        "company": "letv",
+        "cp": "component",
+        "devpr_num": "7",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.17425",
+        "ci": "0.00266961",
+        "company": "metacloud",
+        "cp": "component",
+        "devpr_num": "7",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08575",
+        "ci": "0.00376648",
+        "company": "mit",
+        "cp": "community",
+        "devpr_num": "7",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1269",
+        "ci": "0.00204089",
+        "company": "nexenta",
+        "cp": "component",
+        "devpr_num": "7",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.2578",
+        "ci": "0.00769231",
+        "company": "numergy",
+        "cp": "client",
+        "devpr_num": "7",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.125975",
+        "ci": "0.010967",
+        "company": "platform9 systems",
+        "cp": "component",
+        "devpr_num": "7",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.167925",
+        "ci": "0.00173085",
+        "company": "stackstorm",
+        "cp": "component",
+        "devpr_num": "7",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.2556",
+        "ci": "0.00236967",
+        "company": "umcloud",
+        "cp": "deployment",
+        "devpr_num": "7",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1697",
+        "ci": "0.00232019",
+        "company": "akanda",
+        "cp": "deployment",
+        "devpr_num": "6",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.18085",
+        "ci": "0.00456621",
+        "company": "chef",
+        "cp": "deployment",
+        "devpr_num": "6",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08435",
+        "ci": "0.00131398",
+        "company": "codilime",
+        "cp": "component",
+        "devpr_num": "6",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.16855",
+        "ci": "0.00252525",
+        "company": "cognizant technology solution",
+        "cp": "component",
+        "devpr_num": "6",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0861",
+        "ci": "0.00516529",
+        "company": "exalt technologies",
+        "cp": "component",
+        "devpr_num": "6",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.15625",
+        "ci": "0.0125",
+        "company": "information sciences institute",
+        "cp": "component",
+        "devpr_num": "6",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1686",
+        "ci": "0.00305956",
+        "company": "intracom telecom",
+        "cp": "deployment",
+        "devpr_num": "6",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.086475",
+        "ci": "0.00209374",
+        "company": "izel technologies",
+        "cp": "component",
+        "devpr_num": "6",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0846",
+        "ci": "0.00128423",
+        "company": "kddi",
+        "cp": "component",
+        "devpr_num": "6",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0854",
+        "ci": "0.0020284",
+        "company": "maplelabs",
+        "cp": "component",
+        "devpr_num": "6",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0851",
+        "ci": "0.00188324",
+        "company": "nuage networks",
+        "cp": "component",
+        "devpr_num": "6",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08495",
+        "ci": "0.000998405",
+        "company": "tubitak",
+        "cp": "component",
+        "devpr_num": "6",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1679",
+        "ci": "0.00176678",
+        "company": "veritas",
+        "cp": "component",
+        "devpr_num": "6",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.2596",
+        "ci": "0.00482315",
+        "company": "x-ion",
+        "cp": "deployment",
+        "devpr_num": "6",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.12775",
+        "ci": "0.00321171",
+        "company": "china unicom",
+        "cp": "component",
+        "devpr_num": "5",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1689",
+        "ci": "0.00206186",
+        "company": "bit-isle",
+        "cp": "component",
+        "devpr_num": "5",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1844",
+        "ci": "0.00413223",
+        "company": "bluehost",
+        "cp": "component",
+        "devpr_num": "5",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08415",
+        "ci": "0.00184649",
+        "company": "boston university",
+        "cp": "deployment",
+        "devpr_num": "5",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1686",
+        "ci": "0.00321543",
+        "company": "datacentred",
+        "cp": "deployment",
+        "devpr_num": "5",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.085",
+        "ci": "0.00644303",
+        "company": "docker",
+        "cp": "plugin",
+        "devpr_num": "5",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.084275",
+        "ci": "0.00139872",
+        "company": "infoblox",
+        "cp": "component",
+        "devpr_num": "5",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0869",
+        "ci": "0.0040568",
+        "company": "kt corporation",
+        "cp": "component",
+        "devpr_num": "5",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.125975",
+        "ci": "0.00158719",
+        "company": "njk corporation",
+        "cp": "component",
+        "devpr_num": "5",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.171825",
+        "ci": "0.00394193",
+        "company": "op5",
+        "cp": "component",
+        "devpr_num": "5",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08465",
+        "ci": "0.00080064",
+        "company": "radware",
+        "cp": "component",
+        "devpr_num": "5",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.16865",
+        "ci": "0.00204442",
+        "company": "savoir-faire linux",
+        "cp": "component",
+        "devpr_num": "5",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.25355",
+        "ci": "0.00286268",
+        "company": "servionica",
+        "cp": "component",
+        "devpr_num": "5",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.2564",
+        "ci": "0.0035297",
+        "company": "solidfire",
+        "cp": "client",
+        "devpr_num": "5",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0848",
+        "ci": "0.00226303",
+        "company": "solinea",
+        "cp": "community",
+        "devpr_num": "5",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08455",
+        "ci": "0.00176991",
+        "company": "stratoscale",
+        "cp": "client",
+        "devpr_num": "5",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0845",
+        "ci": "0.00119617",
+        "company": "tcs",
+        "cp": "component",
+        "devpr_num": "5",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.26195",
+        "ci": "0.00769231",
+        "company": "va linux",
+        "cp": "component",
+        "devpr_num": "5",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1697",
+        "ci": "0.0023571",
+        "company": "virtuozzo",
+        "cp": "component",
+        "devpr_num": "5",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0853",
+        "ci": "0.00102669",
+        "company": "wanclouds",
+        "cp": "component",
+        "devpr_num": "5",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.17015",
+        "ci": "0.00413223",
+        "company": "wikimedia foundation",
+        "cp": "component",
+        "devpr_num": "5",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08415",
+        "ci": "0.00110581",
+        "company": "yandex",
+        "cp": "component",
+        "devpr_num": "5",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.210025",
+        "ci": "0.0162698",
+        "company": "china telecom",
+        "cp": "component",
+        "devpr_num": "4",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1747",
+        "ci": "0.00253361",
+        "company": "vexxhost",
+        "cp": "deployment",
+        "devpr_num": "4",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.17385",
+        "ci": "0.0033557",
+        "company": "debian",
+        "cp": "client",
+        "devpr_num": "4",
+        "goal": "distros"
+    },
+    {
+        "ce": "0.126175",
+        "ci": "0.00197757",
+        "company": "6wind",
+        "cp": "component",
+        "devpr_num": "4",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08405",
+        "ci": "0.00260417",
+        "company": "adva optical networking",
+        "cp": "component",
+        "devpr_num": "4",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0844",
+        "ci": "0.0024338",
+        "company": "avaya",
+        "cp": "component",
+        "devpr_num": "4",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.17375",
+        "ci": "0.00260417",
+        "company": "cloudbau",
+        "cp": "component",
+        "devpr_num": "4",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.084",
+        "ci": "0.00182553",
+        "company": "cumulus networks",
+        "cp": "component",
+        "devpr_num": "4",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.16855",
+        "ci": "0.0033557",
+        "company": "eayun",
+        "cp": "component",
+        "devpr_num": "4",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.12725",
+        "ci": "0.00220657",
+        "company": "epam",
+        "cp": "component",
+        "devpr_num": "4",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08405",
+        "ci": "0.00103306",
+        "company": "f5 networks",
+        "cp": "component",
+        "devpr_num": "4",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08405",
+        "ci": "0.00160772",
+        "company": "flextronics",
+        "cp": "component",
+        "devpr_num": "4",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08465",
+        "ci": "0.00273016",
+        "company": "hastexo",
+        "cp": "community",
+        "devpr_num": "4",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08405",
+        "ci": "0.000837248",
+        "company": "huron",
+        "cp": "component",
+        "devpr_num": "4",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.089825",
+        "ci": "0.0021743",
+        "company": "inria",
+        "cp": "component",
+        "devpr_num": "4",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.16955",
+        "ci": "0.0027027",
+        "company": "itochu techno-solutions",
+        "cp": "component",
+        "devpr_num": "4",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.18085",
+        "ci": "0.00456621",
+        "company": "iweb",
+        "cp": "component",
+        "devpr_num": "4",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1274",
+        "ci": "0.00162734",
+        "company": "microsoft",
+        "cp": "component",
+        "devpr_num": "4",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08405",
+        "ci": "0.0016228",
+        "company": "nc state university",
+        "cp": "component",
+        "devpr_num": "4",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1689",
+        "ci": "0.00169492",
+        "company": "parallels",
+        "cp": "component",
+        "devpr_num": "4",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0869",
+        "ci": "0.00298507",
+        "company": "portland state university",
+        "cp": "deployment",
+        "devpr_num": "4",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1694",
+        "ci": "0.00214133",
+        "company": "pure storage",
+        "cp": "component",
+        "devpr_num": "4",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.084",
+        "ci": "0.00464037",
+        "company": "sk telecom",
+        "cp": "community",
+        "devpr_num": "4",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1694",
+        "ci": "0.00705128",
+        "company": "snabb",
+        "cp": "component",
+        "devpr_num": "4",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1685",
+        "ci": "0.00169492",
+        "company": "telefonica",
+        "cp": "component",
+        "devpr_num": "4",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.168475",
+        "ci": "0.00222787",
+        "company": "zadara storage",
+        "cp": "component",
+        "devpr_num": "4",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.257675",
+        "ci": "0.00592085",
+        "company": "a10 networks",
+        "cp": "component",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08625",
+        "ci": "0.00246305",
+        "company": "anchor",
+        "cp": "client",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08465",
+        "ci": "0.00260417",
+        "company": "bbc research & development",
+        "cp": "deployment",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.126225",
+        "ci": "0.00319312",
+        "company": "beijing guodiantong network technology",
+        "cp": "community",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.16785",
+        "ci": "0.0020284",
+        "company": "bloomberg",
+        "cp": "client",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08405",
+        "ci": "0.00111462",
+        "company": "caicloud",
+        "cp": "component",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0849",
+        "ci": "0.00116433",
+        "company": "cavium networks montavista group",
+        "cp": "component",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.126375",
+        "ci": "0.00315394",
+        "company": "cloud&heat",
+        "cp": "component",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08625",
+        "ci": "0.00172951",
+        "company": "cloudvps",
+        "cp": "community",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1271",
+        "ci": "0.00311477",
+        "company": "create-net",
+        "cp": "deployment",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0845",
+        "ci": "0.00236967",
+        "company": "csic",
+        "cp": "client",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1762",
+        "ci": "0.00775194",
+        "company": "cybera",
+        "cp": "deployment",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08405",
+        "ci": "0.00091685",
+        "company": "dot hill systems",
+        "cp": "component",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1691",
+        "ci": "0.00159404",
+        "company": "enea software",
+        "cp": "component",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.12605",
+        "ci": "0.00160668",
+        "company": "fortinet",
+        "cp": "component",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.16855",
+        "ci": "0.00214133",
+        "company": "freescale",
+        "cp": "component",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.168",
+        "ci": "0.00232019",
+        "company": "futurewei technologies",
+        "cp": "component",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.126",
+        "ci": "0.00286492",
+        "company": "infinidat",
+        "cp": "component",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08465",
+        "ci": "0.00103306",
+        "company": "infn national institute for nuclear physics",
+        "cp": "component",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08455",
+        "ci": "0.00214133",
+        "company": "iron.io",
+        "cp": "client",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.12735",
+        "ci": "0.00133644",
+        "company": "kakao",
+        "cp": "component",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08405",
+        "ci": "0.00232019",
+        "company": "kontron",
+        "cp": "community",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1679",
+        "ci": "0.011492",
+        "company": "linbit",
+        "cp": "component",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.21055",
+        "ci": "0.00396095",
+        "company": "mail.ru",
+        "cp": "client",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0861",
+        "ci": "0.00325095",
+        "company": "memset",
+        "cp": "client",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0848",
+        "ci": "0.00143061",
+        "company": "montavista software",
+        "cp": "component",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.084325",
+        "ci": "0.00245879",
+        "company": "naver",
+        "cp": "component",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08405",
+        "ci": "0.00103306",
+        "company": "nimble storage",
+        "cp": "component",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.126675",
+        "ci": "0.00271599",
+        "company": "ormuco",
+        "cp": "component",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0847",
+        "ci": "0.000686813",
+        "company": "rackn",
+        "cp": "component",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.12875",
+        "ci": "0.00329948",
+        "company": "rakuten",
+        "cp": "community",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.25185",
+        "ci": "0.00252525",
+        "company": "redpill linpro",
+        "cp": "client",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08425",
+        "ci": "0.00117855",
+        "company": "sberbank",
+        "cp": "component",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.086825",
+        "ci": "0.00164392",
+        "company": "scality",
+        "cp": "component",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1289",
+        "ci": "0.00187192",
+        "company": "softlayer",
+        "cp": "component",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08405",
+        "ci": "0.00143061",
+        "company": "tigera",
+        "cp": "component",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0843",
+        "ci": "0.000837248",
+        "company": "university of szeged",
+        "cp": "component",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.170025",
+        "ci": "0.00198107",
+        "company": "xlab",
+        "cp": "client",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08465",
+        "ci": "0.00114307",
+        "company": "xsky",
+        "cp": "community",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08405",
+        "ci": "0.00103306",
+        "company": "zhejiang university",
+        "cp": "component",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.13295",
+        "ci": "0.00591264",
+        "company": "zmanda",
+        "cp": "component",
+        "devpr_num": "3",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.124611",
+        "ci": "0.00142817",
+        "company": "city network hosting ab",
+        "cp": "client",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.34155",
+        "ci": "0.00478469",
+        "company": "infomaniak network",
+        "cp": "deployment",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08575",
+        "ci": "0.00125944",
+        "company": "allegro",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.084375",
+        "ci": "0.000714602",
+        "company": "ammeon",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.084775",
+        "ci": "0.00218582",
+        "company": "arris",
+        "cp": "client",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0852",
+        "ci": "0.00117855",
+        "company": "axilera",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.125925",
+        "ci": "0.00159404",
+        "company": "bbva",
+        "cp": "deployment",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.09055",
+        "ci": "0.00413223",
+        "company": "bull",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1687",
+        "ci": "0.0037037",
+        "company": "certusnet",
+        "cp": "community",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.16795",
+        "ci": "0.00214133",
+        "company": "china unionpay",
+        "cp": "community",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.09055",
+        "ci": "0.00251889",
+        "company": "cienet technologies",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08675",
+        "ci": "0.00260417",
+        "company": "cirrax gmbh",
+        "cp": "deployment",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08575",
+        "ci": "0.00125944",
+        "company": "dassault systemes",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0853",
+        "ci": "0.0020284",
+        "company": "datera",
+        "cp": "client",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08425",
+        "ci": "0.00074239",
+        "company": "dek technologies",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.209875",
+        "ci": "0.00222787",
+        "company": "eisoo",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.17095",
+        "ci": "0.00537634",
+        "company": "embrane",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08575",
+        "ci": "0.00307692",
+        "company": "fathomdb",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.167975",
+        "ci": "0.00205457",
+        "company": "ggyy",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.17445",
+        "ci": "0.00537634",
+        "company": "gridcentric",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08405",
+        "ci": "0.00119617",
+        "company": "ieee foundation",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.169275",
+        "ci": "0.00234493",
+        "company": "in august",
+        "cp": "community",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.16885",
+        "ci": "0.00203591",
+        "company": "infinite computer solution",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.125975",
+        "ci": "0.00177915",
+        "company": "information & communication laboratories - industrial technology research institute",
+        "cp": "community",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0856",
+        "ci": "0.0020284",
+        "company": "instituto de telecomunicacoes",
+        "cp": "client",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08405",
+        "ci": "0.00176678",
+        "company": "iphc - cnrs - university of strasbourg",
+        "cp": "client",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08405",
+        "ci": "0.00232019",
+        "company": "iqiyi",
+        "cp": "client",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.129425",
+        "ci": "0.00204513",
+        "company": "isp ras",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.083975",
+        "ci": "0.000998405",
+        "company": "itkey",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.084375",
+        "ci": "0.00140212",
+        "company": "kemp technologies.",
+        "cp": "community",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.2536",
+        "ci": "0.00220464",
+        "company": "kvh",
+        "cp": "community",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.16795",
+        "ci": "0.00943396",
+        "company": "kyunghee university",
+        "cp": "community",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.19215",
+        "ci": "0.0169492",
+        "company": "locaweb",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.6198",
+        "ci": "0.114379",
+        "company": "nasa",
+        "cp": "client",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.168875",
+        "ci": "0.00317475",
+        "company": "nectar",
+        "cp": "client",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.16785",
+        "ci": "0.00176678",
+        "company": "nubeliu",
+        "cp": "client",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0848",
+        "ci": "0.00143061",
+        "company": "oregon state university",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0853",
+        "ci": "0.00247525",
+        "company": "percona",
+        "cp": "community",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.17085",
+        "ci": "0.00452057",
+        "company": "pluribus networks",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.2546",
+        "ci": "0.00276717",
+        "company": "polex",
+        "cp": "community",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08425",
+        "ci": "0.00074239",
+        "company": "prophetstor",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08405",
+        "ci": "0.00119617",
+        "company": "qnap systems",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08415",
+        "ci": "0.000938471",
+        "company": "quobyte",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.16955",
+        "ci": "0.00414938",
+        "company": "seagate",
+        "cp": "client",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1685",
+        "ci": "0.00176678",
+        "company": "servosity",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08415",
+        "ci": "0.00189915",
+        "company": "sohonet",
+        "cp": "client",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1688",
+        "ci": "0.00318745",
+        "company": "spanish national research council",
+        "cp": "client",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0893",
+        "ci": "0.00164392",
+        "company": "spil games",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08425",
+        "ci": "0.000686813",
+        "company": "target",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.217175",
+        "ci": "0.00623278",
+        "company": "tintri",
+        "cp": "community",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0857",
+        "ci": "0.00138539",
+        "company": "ubisoft entertainment",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.2537",
+        "ci": "0.00252525",
+        "company": "university of chicago",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08625",
+        "ci": "0.000843881",
+        "company": "university of kent",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0845",
+        "ci": "0.00102669",
+        "company": "university of zurich",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1682",
+        "ci": "0.00200941",
+        "company": "violin memory",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08815",
+        "ci": "0.00251889",
+        "company": "virtualbridges",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.084925",
+        "ci": "0.00140212",
+        "company": "vmturbo",
+        "cp": "community",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08435",
+        "ci": "0.000915254",
+        "company": "winhong",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08475",
+        "ci": "0.00206611",
+        "company": "yovole networks",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.126225",
+        "ci": "0.00135165",
+        "company": "zetta.io",
+        "cp": "component",
+        "devpr_num": "2",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1679",
+        "ci": "0.00252525",
+        "company": "21viacloud",
+        "cp": "community",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08405",
+        "ci": "0.000641436",
+        "company": "aeode",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08415",
+        "ci": "0.000664125",
+        "company": "aerofs",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.084325",
+        "ci": "0.00279267",
+        "company": "afour technologies",
+        "cp": "community",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.084",
+        "ci": "0.00232019",
+        "company": "altair engineering",
+        "cp": "community",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1333",
+        "ci": "0.00269583",
+        "company": "alyseo",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08405",
+        "ci": "0.000641436",
+        "company": "apache software foundation",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08525",
+        "ci": "0.000664125",
+        "company": "apalia",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08425",
+        "ci": "0.000686813",
+        "company": "apcera",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.085275",
+        "ci": "0.0022946",
+        "company": "argonne national laboratory",
+        "cp": "community",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08425",
+        "ci": "0.00144186",
+        "company": "aricent",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08425",
+        "ci": "0.000686813",
+        "company": "asd tech",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.138925",
+        "ci": "0.00553846",
+        "company": "atomia",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.126225",
+        "ci": "0.00173242",
+        "company": "avi networks",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.084325",
+        "ci": "0.000998405",
+        "company": "awnix ",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.084225",
+        "ci": "0.000665833",
+        "company": "bct-llc",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.084125",
+        "ci": "0.00141407",
+        "company": "bell mobility",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08495",
+        "ci": "0.000714602",
+        "company": "bhabha atomic research centre",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.084375",
+        "ci": "0.000714602",
+        "company": "biomarin pharmaceutical",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08415",
+        "ci": "0.000664125",
+        "company": "bounce storage",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08405",
+        "ci": "0.00103306",
+        "company": "bowest",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0861",
+        "ci": "0.00152755",
+        "company": "business connexion",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.086875",
+        "ci": "0.0020518",
+        "company": "calxeda",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.17075",
+        "ci": "0.00217865",
+        "company": "cc cloud gmbh",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0846",
+        "ci": "0.000797448",
+        "company": "cc-in2p3",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.169225",
+        "ci": "0.00205867",
+        "company": "chelsio communications",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08405",
+        "ci": "0.00119617",
+        "company": "chinanetcenter",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08425",
+        "ci": "0.000686813",
+        "company": "cloudbyte technologies india pvt. ltd.",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.126025",
+        "ci": "0.001495",
+        "company": "clouddc",
+        "cp": "community",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0848",
+        "ci": "0.000843881",
+        "company": "cloudenablers",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0871",
+        "ci": "0.00305821",
+        "company": "cloudrunner.io",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08505",
+        "ci": "0.000935286",
+        "company": "cloudsigma",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.16785",
+        "ci": "0.0019305",
+        "company": "coho data",
+        "cp": "community",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08405",
+        "ci": "0.00103306",
+        "company": "commvault systems",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0869",
+        "ci": "0.0020284",
+        "company": "coraid",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0934",
+        "ci": "0.00522584",
+        "company": "crs4",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08425",
+        "ci": "0.000686813",
+        "company": "cybercom",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0845",
+        "ci": "0.00188324",
+        "company": "cyso",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08405",
+        "ci": "0.00103306",
+        "company": "datacore software corporation",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08395",
+        "ci": "0.000589275",
+        "company": "dena",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1464",
+        "ci": "0.0099524",
+        "company": "denali systems",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08405",
+        "ci": "0.00074239",
+        "company": "deutsches klimarechenzentrum gmbh",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.16855",
+        "ci": "0.00232019",
+        "company": "elits",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.084475",
+        "ci": "0.000664125",
+        "company": "ericpol sp. z o.o",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08405",
+        "ci": "0.000641436",
+        "company": "expresshosting.net",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.084",
+        "ci": "0.000797448",
+        "company": "fbk",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.127575",
+        "ci": "0.00180343",
+        "company": "fermilab",
+        "cp": "community",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08395",
+        "ci": "0.000589275",
+        "company": "fullsave",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.2541",
+        "ci": "0.0125",
+        "company": "fuse",
+        "cp": "community",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08465",
+        "ci": "0.000793136",
+        "company": "gigaspaces",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0856",
+        "ci": "0.00074239",
+        "company": "globo tv networks",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08405",
+        "ci": "0.00119617",
+        "company": "hanoi university of science",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.126025",
+        "ci": "0.00217257",
+        "company": "hedera technology",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.126025",
+        "ci": "0.00207657",
+        "company": "hostworks",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1684",
+        "ci": "0.00206186",
+        "company": "huaxin hospital",
+        "cp": "community",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1694",
+        "ci": "0.00232019",
+        "company": "huray positive",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08405",
+        "ci": "0.000641436",
+        "company": "hyperglance",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.084",
+        "ci": "0.000797448",
+        "company": "hyperhq",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1694",
+        "ci": "0.00169492",
+        "company": "industrial technology research institute",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.095575",
+        "ci": "0.00416696",
+        "company": "inktank",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.09095",
+        "ci": "0.00420168",
+        "company": "interhostas",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.15625",
+        "ci": "0.0135135",
+        "company": "iomart",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.12625",
+        "ci": "0.00156042",
+        "company": "iscas",
+        "cp": "community",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08405",
+        "ci": "0.00119617",
+        "company": "kove",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.27275",
+        "ci": "0.0238095",
+        "company": "la honda research",
+        "cp": "community",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.176275",
+        "ci": "0.00184028",
+        "company": "limestone networks",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.09045",
+        "ci": "0.0020284",
+        "company": "limilo",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.13385",
+        "ci": "0.00353669",
+        "company": "linagora",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1683",
+        "ci": "0.00235195",
+        "company": "massachusetts open cloud",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.257875",
+        "ci": "0.00424488",
+        "company": "metsi technologies",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08405",
+        "ci": "0.000641436",
+        "company": "monash university",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0869",
+        "ci": "0.0020284",
+        "company": "mynet",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0851",
+        "ci": "0.00160772",
+        "company": "net one systems",
+        "cp": "community",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.126625",
+        "ci": "0.00166875",
+        "company": "netronome",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08395",
+        "ci": "0.00080064",
+        "company": "ngnware",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.17375",
+        "ci": "0.0113636",
+        "company": "nicira",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.271275",
+        "ci": "0.0133103",
+        "company": "nimbis services",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0845",
+        "ci": "0.00074239",
+        "company": "nworks management",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0",
+        "ci": "0",
+        "company": "oath",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "consulting"
+    },
+    {
+        "ce": "0",
+        "ci": "0",
+        "company": "ocado",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "consulting"
+    },
+    {
+        "ce": "0.084625",
+        "ci": "0.00184028",
+        "company": "ocf plc",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.224425",
+        "ci": "0.00369443",
+        "company": "oniva online group ab",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0845",
+        "ci": "0.00074239",
+        "company": "oodrive",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0",
+        "ci": "0",
+        "company": "ostorage",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "consulting"
+    },
+    {
+        "ce": "0.08395",
+        "ci": "0.000589275",
+        "company": "pacific northwest national laboratory",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08425",
+        "ci": "0.000686813",
+        "company": "parkside software",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08405",
+        "ci": "0.00143061",
+        "company": "pnnl",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.17385",
+        "ci": "0.00537634",
+        "company": "polybeacon",
+        "cp": "community",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.088925",
+        "ci": "0.00311504",
+        "company": "quanta research cambridge",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08395",
+        "ci": "0.000589275",
+        "company": "rage.net",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.17385",
+        "ci": "0.00315457",
+        "company": "rightscale",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.127025",
+        "ci": "0.00241134",
+        "company": "rms",
+        "cp": "community",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08405",
+        "ci": "0.00217865",
+        "company": "rtsoft",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.09095",
+        "ci": "0.00420168",
+        "company": "san diego supercomputer center",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.16805",
+        "ci": "0.00440529",
+        "company": "selectel",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08845",
+        "ci": "0.00307692",
+        "company": "sonian",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.085925",
+        "ci": "0.00160882",
+        "company": "soufflet.io",
+        "cp": "community",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0853",
+        "ci": "0.00125944",
+        "company": "styra",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08405",
+        "ci": "0.000641436",
+        "company": "sunayu",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08575",
+        "ci": "0.00125944",
+        "company": "taobao",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.084325",
+        "ci": "0.00127311",
+        "company": "tegile systems",
+        "cp": "community",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.17445",
+        "ci": "0.00537634",
+        "company": "the guardian",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.084025",
+        "ci": "0.000915254",
+        "company": "ticomm",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0853",
+        "ci": "0.00102669",
+        "company": "tieto",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0845",
+        "ci": "0.00074239",
+        "company": "tis",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.084",
+        "ci": "0.000797448",
+        "company": "toga networks",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.126225",
+        "ci": "0.00147947",
+        "company": "topmanage",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0848",
+        "ci": "0.000843881",
+        "company": "trilio data",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.12765",
+        "ci": "0.00476286",
+        "company": "tunnel vision laboratories",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1685",
+        "ci": "0.00143061",
+        "company": "universidade federal de s_o carlos",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08575",
+        "ci": "0.00125944",
+        "company": "university of minnesota",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.10465",
+        "ci": "0.00413223",
+        "company": "usc-isi",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08415",
+        "ci": "0.00119087",
+        "company": "v3 innovations",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1693",
+        "ci": "0.0020284",
+        "company": "verilume",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0851",
+        "ci": "0.000716578",
+        "company": "verisign",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.126625",
+        "ci": "0.00167662",
+        "company": "verizon wireless",
+        "cp": "community",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.174175",
+        "ci": "0.00305937",
+        "company": "virtualtech",
+        "cp": "client",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08405",
+        "ci": "0.00119617",
+        "company": "wavecon gmbh",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.084",
+        "ci": "0.000615356",
+        "company": "websupport.sk",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.0845",
+        "ci": "0.00074239",
+        "company": "wipro",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.084325",
+        "ci": "0.0010985",
+        "company": "wolf den associates",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.1684",
+        "ci": "0.00206186",
+        "company": "x-io",
+        "cp": "community",
+        "devpr_num": "1",
+        "goal": "cloud service"
+    },
+    {
+        "ce": "0.08575",
+        "ci": "0.00125944",
+        "company": "ysance",
+        "cp": "component",
+        "devpr_num": "1",
+        "goal": "cloud service"
     }
 ]
