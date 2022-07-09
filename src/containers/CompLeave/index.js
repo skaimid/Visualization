@@ -18,7 +18,7 @@ const data1 = [
   { value: 5, name: "SCS" },
   { value: 1, name: "CO" },
   { value: 3, name: "DIV" },
-]
+];
 const data2 = [
   { value: 2, name: "deployment" },
   { value: 34, name: "component" },
@@ -26,7 +26,7 @@ const data2 = [
   { value: 3, name: "infra tools" },
   { value: 3, name: "plugin" },
   { value: 11, name: "community" },
-]
+];
 
 function onChange(value) {
   console.log(`selected ${value}`);
@@ -38,7 +38,7 @@ function onSearch(val) {
 
 const Complete = ({ info, setSelectedComp }) => (
   <AutoComplete
-    style={{ width: 200, height :300}}
+    style={{ width: 200, height: 300 }}
     options={info}
     placeholder="input here"
     filterOption={(inputValue, item) => {
@@ -88,7 +88,7 @@ export default function CompParticipate() {
     <HolyGrailLayout>
       <div className="flex flex-row flex-nowrap justify-between m-8 min-w-[720px] items-stretch">
         <div className="flex flex-col m-3 w-1/3">
-          <GraphContainer title={"公司搜索"} >
+          <GraphContainer title={"公司搜索"} style={{ maxHeight: "200px" }}>
             {info && (
               <Complete
                 info={info.map((item) => {
@@ -101,7 +101,7 @@ export default function CompParticipate() {
 
           <GraphContainer title={"公司信息"}>
             {selectedComp && info ? (
-              <div className="w-[16rem] text-3xl" >
+              <div className="w-[16rem] text-3xl">
                 <li>company：{findCompInfo(selectedComp, info).company}</li>
                 <li>commits:{findCompInfo(selectedComp, info).commits}</li>
                 <li>scale:{findCompInfo(selectedComp, info).scale}</li>
@@ -125,20 +125,19 @@ export default function CompParticipate() {
 
         <div className="flex flex-col m-3 w-2/3 text-2xl">
           <div className="flex flex-row m-3  text-2xl">
-          <GraphContainer title={"社区公司流动趋势"} >
-            <Mye/>
-          </GraphContainer>
+            <GraphContainer title={"社区公司流动趋势"}>
+              <Mye />
+            </GraphContainer>
           </div>
           <div className="flex flex-row m-3 w-1/2 text-2xl">
-          <GraphContainer title={"撤出公司商业目标占比饼图"}>
-            <Pie data={data1}/>
-          </GraphContainer>
-          <GraphContainer title={"撤出公司项目类型占比饼图"}>
-            <Pie data={data2} />
-          </GraphContainer>
+            <GraphContainer title={"撤出公司商业目标占比饼图"}>
+              <Pie data={data1} />
+            </GraphContainer>
+            <GraphContainer title={"撤出公司项目类型占比饼图"}>
+              <Pie data={data2} />
+            </GraphContainer>
           </div>
-          
-            </div>
+        </div>
 
         {/*<div className="flex flex-col m-3 w-2/3 text-2xl">
           <GraphContainer title={"社区公司流动趋势"} >
@@ -155,7 +154,6 @@ export default function CompParticipate() {
           </GraphContainer>
           </div>
             </div>*/}
-          
 
         {/* 竖着并列 */}
         {/*<div className="flex flex-col m-3 w-1/3 text-2xl">

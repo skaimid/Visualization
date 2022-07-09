@@ -37,7 +37,7 @@ const CompInfoKanban = ({ compData }) => {
         <li>
           公司的度中心性：
           <span className="underline decoration-sky-500 decoration-2 underline-offset-2">
-            {compData.dc.toFixed(4)}
+            {compData.dc.toFixed(2)}
           </span>
         </li>
       </ul>

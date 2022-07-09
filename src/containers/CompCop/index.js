@@ -60,7 +60,7 @@ const ClusterRsInfoKanban = ({ clusterMeta }) => {
         <li>
           bi-modularity：
           <span className="underline decoration-sky-500 decoration-2 underline-offset-2">
-            {clusterMeta.bimodularity.toFixed(4)}
+            {clusterMeta.bimodularity.toFixed(2)}
           </span>
         </li>
       </ul>
