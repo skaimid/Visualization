@@ -1,4 +1,8 @@
-# 开源可视化项目
+**不会继续维护与更新**
+
+**no more maintenance**
+
+# 开源可视化项目（openstack 数据集 version 1-18）
 
 ## 运行
 需要 [node.js](https://nodejs.org/zh-cn/)
@@ -50,4 +54,8 @@ npm config set registry https://registry.npmmirror.com/
 
 推荐软件 [fork](https://git-fork.com/)
 
+# Special Thanks
 
+[Yuxia Zhang](https://scholar.google.com/citations?user=lsYskbsAAAAJ&hl=zh-CN) form BIT(Beijing Institute of Technology) and her papers
+
+Also Thanks works form ShiJie YinManxin FanhShutong 's work and help
